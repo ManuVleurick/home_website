@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home_style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/"><img src="../static/img/funny_elephant.jpg" width=120px height=120px/></a>
+        <a href="#kamers_section"><p class="kamers_nav">Kamers</p></a>
+        <a href="#weer_section"><p class="weer_nav">Weer</p></a>
+        <a href="#third"><p class="test"></p></a>
+        <a href="#fourth"><p class="test"></p></a>
+        <a href="#fifth"><p class="test"></p></a>
+      </nav>
+       
+     <div class= 'container'> 
+       <section id= 'kamers_section'>
+          <h1 class="grid_item">Kamers</h1>
+          <h2 id="kamer1" class="grid_item">Manu</h2>
+          <div id="info_kamer1">
+            <p class="co2_value">CO2 level: </p><p class="co2_value"></p>
+            <p class="temp_value">Temperatuur: </p>
+          </div>
+          <h2 id="kamer2" class="grid_item">Zolder</h2>
+          <div id="info_kamer2">
+            <p class="co2_value">CO2 level: </p>
+            <p class="temp_value">Temperatuur: </p>
+          </div>
+          </div>
+       </section>
+       
+       <section id= 'weer_section'>
+         <h1 class="title">Weer</h1>
+       </section>
+       
+      <section id= 'third'>
+        <h1 class="title">Third</h1>
+       </section>
+       
+      <section id= 'fourth'>
+        <h1 class="title">Fourth</h1>
+       </section>
+
+       <section id= 'fifth'>
+        <h1 class="title">Fifth</h1>
+       </section>
+     </div>
+</body>
+</html>
